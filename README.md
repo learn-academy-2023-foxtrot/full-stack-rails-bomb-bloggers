@@ -1,24 +1,14 @@
-# README
+As a developer, I have been commissioned to create a blog post application. As an MVP, I have been asked to create an application where a user can see all the blog post titles, see the content of any given blog post, and the ability to create blog posts.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Story 1: In order to interact with the blog post application, as a user of the application, I need to see a list of all blog posts.
 
-Things you may want to cover:
+Branch: blog-index
 
-* Ruby version
+Acceptance Criteria
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Has a model for Blog with the following information: title and content 
+Has a controller for Blog
+Has a controller action for index
+Has a route for index
+Has a view for index
+Can see all the blog post titles on the landing page of the application
