@@ -1,0 +1,7 @@
+<h1> Blog Lists </h1>
+
+<ul>
+    <% @blogs.each do |blog| %>
+        <li> <%= blog.title %> About: <%= blog.content %> </li>
+    <% end %>
+</ul>
