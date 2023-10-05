@@ -1,0 +1,14 @@
+<h1> Create A New Blog </h1>
+
+<%= form_with model: @blog do |form| %>
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+
+    <br>
+    <%= form.label :content %>
+    <%=  form.text_field :content%>
+<% end %>
+
+<%= link_to 'Submit' %>
+<br>
+<%= link_to 'Main Menu', blogs_path %>
