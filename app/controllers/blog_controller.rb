@@ -4,8 +4,8 @@ class BlogController < ApplicationController
     end
     def show 
         @blog = Blog.find(params[:id])
-        # @blog.redirect_back(fallback_location: root_path) 
-        # redirect_to index_path(@blog)
     end
-
+    def new 
+        @new_post = Blog.new
+    end
 end
