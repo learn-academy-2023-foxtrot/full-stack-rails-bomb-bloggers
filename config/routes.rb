@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  get '/blog' => 'blog#index'
+  get '/blogs' => 'blog#index'
+  get '/show/:id' => 'blog#show'
+
 end
+
